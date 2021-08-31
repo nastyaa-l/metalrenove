@@ -12,48 +12,57 @@
     <header class = "header">
       <img class="header__logo" src="./image/logo.svg" alt="логотип">
       <div class="header__menu-bar">
-        <p class="header__menu">О компании</p>
+        <a class="header__menu header__menu_active" href="#">О компании</a>
         <div class="header__dropdown">
       <button class="header__menu">Услуги и цены
       </button>
       <div class="header__dropdown-content">
-        <a href="#">Утилизация железнодорожного подвижного состава</a>
-        <a href="#">Демонтаж металоконструкций и оборудования</a>
-        <a href="#">Демонтаж инженерных сетей</a>
-        <a  href="#">Утилизация водного транспорта</a>
+        <a href="./rzd/rzd.html">Утилизация железнодорожного подвижного состава</a>
+        <a href="./build/build.html">Демонтаж металоконструкций и оборудования</a>
+        <a href="./net/net.html">Демонтаж инженерных сетей</a>
+        <a href="./ship/ship.html">Утилизация водного транспорта</a>
       </div>
     </div>
-        <p class="header__menu">Контакты</p>
+        <a class="header__menu" href="./contacts/contacts.html">Контакты</a>
       </div>
     </header>
   <main class="content">
     <div class="content__area">
     <div class="content__grid">
+      <a class="content__grid-link" href="./rzd/rzd.html">
       <div class="content__square content__square_train">
         <div class="content__icon content__icon_train"></div>
         <p class="content__name">Утилизация железнодорожного подвижного состава</p>
       </div>
+      </a>
+      <a class="content__grid-link" href="./build/build.html">
       <div class="content__square content__square_metal">
         <div class="content__icon content__icon_metal"></div>
         <p class="content__name">Демонтаж металоконструкций и оборудования</p>
       </div>
+      </a>
+      <a class="content__grid-link" href="./net/net.html">
       <div class="content__square content__square_net">
         <div class="content__icon content__icon_net"></div>
         <p class="content__name">Демонтаж инженерных сетей</p>
       </div>
+      </a>
+      <a class="content__grid-link" href="./ship/ship.html">
       <div class="content__square content__square_ship">
         <div class="content__icon content__icon_ship"></div>
         <p class="content__name">Утилизация водного транспорта</p>
       </div>
     </div>
+    </a>
     <div class="content__place">
       <h1 class="content__header">Сберегая <span class="content__header_color">ресурсы</span> - создаем новые <span class="content__header_color">ценности!</span></h1>
       <button class="content__button">
         <p class="content__button-name">Оставить заявку</p>
       </button>
     </div>
+    <button class="content__play"></button>
     </div>
-  <button class="content__play"></button>
+
   </main>
   <footer class="footer">
   </footer>
